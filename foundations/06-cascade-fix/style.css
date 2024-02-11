@@ -1,20 +1,31 @@
 body {
+  color: hsl(0, 0%, 0%);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+.small-para,
+.text.child {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+div.text {
+  font-weight: 100;
 }
 
-.para {
+.para,
+.text {
   font-size: 22px;
+} 
+
+.small-para,
+.child {
+  font-size: 14px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 
 .confirm {
@@ -23,11 +34,29 @@ body {
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+/*
+The original code:
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
 }
+
+.para {
+  font-size: 22px;
+}
+
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 .child {
   color: rgb(0, 0, 0);
@@ -40,3 +69,10 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+*/
