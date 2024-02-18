@@ -1,5 +1,10 @@
+* {
+  outline: 2px solid orange;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -7,10 +12,23 @@ img {
   height: 100px;
 }
 
+.fruit-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.fruits {
+  max-width: 200px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
 
 /* do not edit this footer */
 .footer {
