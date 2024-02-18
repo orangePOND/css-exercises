@@ -31,42 +31,42 @@ body {
 /* SOLUTION */
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: flex;/**/
+  flex-direction: column;/**/
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
+  display: flex;/**/
+  align-items: center;/*x*/
+  padding: 0 16px;/**/
+  font-size: 32px;/**/
+  font-weight: 900;/**/
 }
 
 .body {
-  flex: 1;
-  display: flex;
+  flex: 1;/*x*/
+  display: flex;/**/
 }
 
 .sidebar {
-  flex-shrink: 0;
-  padding: 16px;
+  flex-shrink: 0;/**/
+  padding: 16px;/*x*/
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none;/**/
+  margin: 0;/*x*/
+  padding: 0;/*x*/
 }
 
 li {
-  margin-bottom: 16px;
+  margin-bottom: 16px;/*x*/
 }
 
 a {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
+  color: white;/**/
+  text-decoration: none;/**/
+  font-size: 24px;/**/
 }
 
 .container {
@@ -82,7 +82,7 @@ a {
 }
 
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex;/**/
+  align-items: center;/**/
+  justify-content: center;/**/
 }
